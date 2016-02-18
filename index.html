@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>scriptLoader</title>
+    <script type="text/javascript" src='onReady.js' /></script>
+  </head>
+
+  <body>
+    <script type="text/javascript">
+      onReady.call(function(){
+        console.log('1 => Hello World!')
+      });
+
+      onReady.call(function(){
+        console.log("1 => Its alive! Alive!")
+      });
+
+      setTimeout(function(){
+        onReady.call(function(){
+          console.log("1 => Its alive! Alive! Alive!")
+        });
+      }, 2000)
+    </script>
+
+    <script type="text/javascript">
+      onReady.after_assets_call(function(){
+        console.log('2 => Hello World!')
+      });
+
+      onReady.after_assets_call(function(){
+        console.log("2 => Its alive! Alive!")
+      });
+
+      setTimeout(function(){
+        onReady.after_assets_call(function(){
+          console.log("2 => Its alive! Alive! Alive!")
+        });
+      }, 2000)
+    </script>
+
+    <p>onReady Event</p>
+    <p>Install Throttlong to 10 kb/s + latency 1000ms for test</p>
+
+    <img src='http://www.flincare.com/wp-content/uploads/2015/04/Nature-Image-Wallpapers-HD-1024x576.jpg?101'>
+    <img src='http://www.flincare.com/wp-content/uploads/2015/04/Nature-Image-Wallpapers-HD-1024x576.jpg?102'>
+    <img src='http://www.flincare.com/wp-content/uploads/2015/04/Nature-Image-Wallpapers-HD-1024x576.jpg?103'>
+    <img src='http://www.flincare.com/wp-content/uploads/2015/04/Nature-Image-Wallpapers-HD-1024x576.jpg?104'>
+    <img src='http://www.flincare.com/wp-content/uploads/2015/04/Nature-Image-Wallpapers-HD-1024x576.jpg?105'>
+
+    <img src='http://www.flincare.com/wp-content/uploads/2015/04/Nature-Image-Wallpapers-HD-1024x576.jpg?201'>
+    <img src='http://www.flincare.com/wp-content/uploads/2015/04/Nature-Image-Wallpapers-HD-1024x576.jpg?202'>
+    <img src='http://www.flincare.com/wp-content/uploads/2015/04/Nature-Image-Wallpapers-HD-1024x576.jpg?203'>
+    <img src='http://www.flincare.com/wp-content/uploads/2015/04/Nature-Image-Wallpapers-HD-1024x576.jpg?204'>
+    <img src='http://www.flincare.com/wp-content/uploads/2015/04/Nature-Image-Wallpapers-HD-1024x576.jpg?205'>
+
+    <img src='http://www.flincare.com/wp-content/uploads/2015/04/Nature-Image-Wallpapers-HD-1024x576.jpg?301'>
+    <img src='http://www.flincare.com/wp-content/uploads/2015/04/Nature-Image-Wallpapers-HD-1024x576.jpg?302'>
+    <img src='http://www.flincare.com/wp-content/uploads/2015/04/Nature-Image-Wallpapers-HD-1024x576.jpg?303'>
+    <img src='http://www.flincare.com/wp-content/uploads/2015/04/Nature-Image-Wallpapers-HD-1024x576.jpg?304'>
+    <img src='http://www.flincare.com/wp-content/uploads/2015/04/Nature-Image-Wallpapers-HD-1024x576.jpg?305'>
+
+    <img src='http://www.flincare.com/wp-content/uploads/2015/04/Nature-Image-Wallpapers-HD-1024x576.jpg?401'>
+    <img src='http://www.flincare.com/wp-content/uploads/2015/04/Nature-Image-Wallpapers-HD-1024x576.jpg?402'>
+    <img src='http://www.flincare.com/wp-content/uploads/2015/04/Nature-Image-Wallpapers-HD-1024x576.jpg?403'>
+    <img src='http://www.flincare.com/wp-content/uploads/2015/04/Nature-Image-Wallpapers-HD-1024x576.jpg?404'>
+    <img src='http://www.flincare.com/wp-content/uploads/2015/04/Nature-Image-Wallpapers-HD-1024x576.jpg?405'>
+
+    <img src='http://www.flincare.com/wp-content/uploads/2015/04/Nature-Image-Wallpapers-HD-1024x576.jpg?501'>
+    <img src='http://www.flincare.com/wp-content/uploads/2015/04/Nature-Image-Wallpapers-HD-1024x576.jpg?502'>
+    <img src='http://www.flincare.com/wp-content/uploads/2015/04/Nature-Image-Wallpapers-HD-1024x576.jpg?503'>
+    <img src='http://www.flincare.com/wp-content/uploads/2015/04/Nature-Image-Wallpapers-HD-1024x576.jpg?504'>
+    <img src='http://www.flincare.com/wp-content/uploads/2015/04/Nature-Image-Wallpapers-HD-1024x576.jpg?505'>
+
+  </body>
+</html>
+
